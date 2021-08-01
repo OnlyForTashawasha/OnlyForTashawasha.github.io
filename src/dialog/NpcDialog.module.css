@@ -1,0 +1,107 @@
+.panelWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.npcImage {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  user-select: none;
+}
+
+.npcProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.npcName {
+  font-size: 3rem;
+  margin-left: 1rem;
+  color: black;
+  user-select: none;
+}
+
+.npcText {
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  user-select: none;
+  color: black;
+  margin-left: 2rem;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s;
+}
+
+@keyframes fadeIn {
+  from{transform:scale(0)}
+  80%{transform:scale(1.05)}
+  to{transform:scale(1)}
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from{transform:scale(0)}
+  80%{transform:scale(1.05)}
+  to{transform:scale(1)}
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from{transform:scale(0)}
+  80%{transform:scale(1.05)}
+  to{transform:scale(1)}
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  from{transform:scale(0)}
+  80%{transform:scale(1.05)}
+  to{transform:scale(1)}
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  from{transform:scale(0)}
+  80%{transform:scale(1.05)}
+  to{transform:scale(1)}
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}

@@ -1,0 +1,20 @@
+
+.pageWrapper {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.pageTitle {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.clickWord {
+  cursor: pointer;
+  transition: transform .5s;
+}
+
+.clickWord:hover {
+  transform: scale(1.1);
+}

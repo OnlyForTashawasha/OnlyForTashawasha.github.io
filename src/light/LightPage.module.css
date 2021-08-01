@@ -1,0 +1,30 @@
+.pageWrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.animePic {
+  border-radius: 20px;
+}
+
+.hiddenText {
+  color: var(--orange);
+}
+
+.emphasis {
+  color: var(--red);
+}
+
+.quote {
+  font-size: 4rem;
+  background-color: #ffffff;
+  color: var(--purple);
+  padding: 1rem;
+  border-radius: 10px;
+  font-style: italic;
+  margin: 5rem;
+}

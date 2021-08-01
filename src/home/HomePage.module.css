@@ -1,0 +1,60 @@
+
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.pageText {
+  font-size: 3rem;
+  color: var(--purple);
+}
+
+.lockWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.unlocklock {
+  font-size: 20rem;
+}
+
+.lock {
+  font-size: 20rem;
+  transition: transform .5s;
+}
+
+.unlockedIcon {
+  color: var(--blue);
+}
+
+.lockIcon {
+  cursor: pointer;
+  color: var(--light-purple);
+}
+
+.lock:hover {
+  transform: scale(1.1);
+}
+
+.resetButton {
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding: 1rem;
+  background-color: var(--yellow);
+  color: var(--purple);
+  transition: transform .5s;
+}
+
+.resetButton:hover {
+  transform: scale(1.1);
+}

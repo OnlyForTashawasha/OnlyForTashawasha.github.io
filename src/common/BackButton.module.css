@@ -1,0 +1,15 @@
+
+.buttonWrapper {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 2rem;
+  font-size: 3rem;
+  transition: transform .5s;
+  cursor: pointer;
+  color: var(--purple);
+}
+
+.buttonWrapper:hover {
+  transform: scale(1.1);
+}

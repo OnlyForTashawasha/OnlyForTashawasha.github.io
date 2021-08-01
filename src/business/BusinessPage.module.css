@@ -1,0 +1,51 @@
+
+.pageWrapper {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.contractTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.contractSubheading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contractText {
+
+}
+
+.contractWrapper {
+  
+}
+
+.businessContract {
+  background-image: url("../assets/document.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  padding-left: 30%;
+  padding-right: 30%;
+  width: 100%;
+  height:100%;
+}
